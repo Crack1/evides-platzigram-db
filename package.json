@@ -1,0 +1,20 @@
+{
+  "name": "platzigram-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "babel-eslint": "^8.2.1",
+    "standard": "^10.0.3"
+  }
+}

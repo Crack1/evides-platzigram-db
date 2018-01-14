@@ -1,0 +1,8 @@
+//lint y standard ayuda a manteneer un orden en nuestro codigo
+npm run lint
+
+
+//para usar la nueva sintaxis de ES6 y sea reconocida por lint
+babel-eslint
+
+//AVA sirve para realizar test TDD con los ultimos estandares de ES6
