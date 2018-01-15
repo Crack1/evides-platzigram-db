@@ -1,3 +1,5 @@
+just duplicate shell from your active pane (classic way) with Ctrl+Shift+O or Ctrl+Shift+E.
+
 //lint y standard ayuda a manteneer un orden en nuestro codigo
 npm run lint
 
@@ -6,3 +8,14 @@ npm run lint
 babel-eslint
 
 //AVA sirve para realizar test TDD con los ultimos estandares de ES6
+
+let matches = text.matches(/#(\w+)/g) //inicia con # cada palabra hasta que encuentre espacio - /g es una expresion regula global que va a aplicar con todas las palabras  del texto 
+
+// CO es una utiidad que permite hacer el intermedio entre usar promesas y azinc await
+
+//bluebird es para implementacion de promesas, permite tener metodos extras, impelemtar funciones hibridas devuelve una promesa si no tiene callback o viceversa
+// sobreescribimos la clase  -> const Promise = require('bluebird') que viene nativamente de javascript para usar la de bluebird
+// si no me pasan callback retorno una promesa "return Promise.resolve(setup())"  si no devuelvo manejo todo como una funcion azincrona con callback ".asCallback(callback)" callback  =-> return Promise.resolve(setup()).asCallback(callback)
+
+///uuid sirver para crear valores aleatorios
+
