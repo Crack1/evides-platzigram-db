@@ -21,3 +21,6 @@ let matches = text.matches(/#(\w+)/g) //inicia con # cada palabra hasta que encu
 
 let images = yield r.db(db).table('images').orderBy(r.desc('createdAt')).run(conn)
 //'images' devuelve un cursor, es un objeto en el cual se muede navegar ya sea even emiters  o el metodo NEXt para que entregue el siguiente resultado y tiene un metodo toArray
+
+    //que verifique que haya algun valor en created.createdAt
+    t.truthy(created.createdAt)
