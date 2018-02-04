@@ -24,3 +24,8 @@ let images = yield r.db(db).table('images').orderBy(r.desc('createdAt')).run(con
 
     //que verifique que haya algun valor en created.createdAt
     t.truthy(created.createdAt)
+
+cuando se tiene el error 'ava Test finished, but an assertion is still pending' se soluciona con un await a modo de ahcer todo sincrono
+
+yield r.db(db).table('images').indexCreate('userId', {multi: true}).run(conn) el caso de multi true indica que se pueden encontrar varios resultados con el mismo indice
+

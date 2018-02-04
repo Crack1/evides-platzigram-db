@@ -9,7 +9,7 @@ const fixtures = {
       url: `https://erwinvides.com.test/${uuid.v4()}`,
       likes: 0,
       liked: false,
-      user_id: uuid.uuid()
+      userId: uuid.uuid()
     }
   },
 
